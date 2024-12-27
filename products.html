@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Marah Fragrances</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+             <h1>Marah Fragrances</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <div class="cart-icon">
+                  <img src="images/cart.png" alt="Cart">
+                   <span id="cart-item-count">0</span>
+                </div>
+            </nav>
+              <div class="search-container">
+              <input type="text" id="search-input" placeholder="Search products...">
+             </div>
+             <div class="cart-section">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>Our Products</h2>
+            <div id="product-container" class="product-grid">
+            </div>
+        </section>
+        <button class="add-to-cart" data-id="1" data-name="Lattafa Yara" data-price="75">Add to Cart</button>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Marah Fragrances. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
